@@ -1,0 +1,143 @@
+/* Universal Css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.open-sans-main {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+/* shared style */
+.bg-color {
+  color: #fff8f3;
+}
+.text-primary-color {
+  color: #fd6e0a;
+}
+
+.dark-1 {
+  color: #181818;
+}
+
+.dark-2 {
+  color: #474747;
+}
+
+.dark-3 {
+  color: #757575;
+}
+
+.btn-primary {
+  background-color: #fd6e0a;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  padding: 18px 35px;
+  cursor: pointer;
+}
+
+/* Header Section */
+
+.header {
+  /* background-image: url(/images/developer.png); */
+  background-image: url(../images/developer.png), url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  background-size: contain;
+}
+
+nav {
+  display: flex;
+  /* max-width: 1150px; */
+  margin: 30px 200px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
+}
+
+nav .nav-menu {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+.nav-menu li {
+  list-style: none;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Banner style */
+.banner {
+  margin: 0 35px 0 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-content {
+  max-width: 580px;
+}
+
+.banner-content .banner-greeting {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.banner-description {
+  margin-bottom: 30px;
+}
+
+.banner-title {
+  font-weight: bold;
+  font-size: 85px;
+}
+
+.banner-btn {
+  display: flex;
+  gap: 30px;
+}
+
+.btn-contact {
+  background-color: white;
+  color: #fd6e0a;
+  border: 1px solid #fd6e0a;
+}
+
+.banner-profile {
+  max-width: 585px;
+  max-height: 670px;
+}
+
+/* Main Style */
+
+/* About Section */
+
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.about-title {
+  font-weight: bold;
+  font-size: 35px;
+  color: #181818;
+}
+
+.about-description {
+  color: #757575;
+  font-size: 18px;
+}
